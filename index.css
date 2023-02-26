@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background: #375279;
+}
+
+h2{
+    color:#ebcc97;
+}
+#heading{
+    background: #eea424;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#heading:hover{
+    color: aqua;
+}
+
+#unit-input{
+    height: 100px;
+    width: 120px;
+    background: #a07f47;
+    margin:auto;
+    border: 2px solid #ebcc97;
+    border-radius: 5px;
+
+    font-size: 58;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+#convert-btn{
+    width: 100px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    margin:25px auto 40px auto;
+    font-size: 16px;
+}
+
+#convert-btn:hover{
+    cursor: pointer;
+    background-color: #1F2937;
+    color: white;
+}
+#results-body{
+    margin-top: -10px;
+    padding-top: 20px;
+    background: #3c567a;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
